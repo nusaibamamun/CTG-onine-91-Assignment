@@ -68,7 +68,7 @@ include 'SuperPower.php';
 class IronMan extends SuperPower{
         
         public function __construct(){
-            echo "Let's get introduced with Thor Iron Man<br>";
+            echo "Let's get introduced with Iron Man<br>";
         }
     }
 
