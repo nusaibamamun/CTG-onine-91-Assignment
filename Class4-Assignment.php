@@ -177,7 +177,7 @@ echo 'Task-7<br><br>';
         public function Replacing($variable)
         {
             $x= explode(" ",$variable);
-            $y= str_replace("Application","WEBSITE",$x);
+            $y= str_replace("APPLICATION","WEBSITE",$x);
             $z= implode(" ",$y);
             return $z;
         }
@@ -189,7 +189,7 @@ echo 'Task-7<br><br>';
     echo "<br><br>";
     echo "Lowest number of word in the sentence: ".$result->SmallestWord("ADVANCED WEB APPLICATION DEVELOPMENT");
     echo "<br><br>";
-    echo "After the Replacement: ".$result->Replacing("Advanced Web Application Development");
+    echo "After the Replacement: ".$result->Replacing("ADVANCED WEB APPLICATION DEVELOPMENT");
 ?>
 </body>
 </html>
