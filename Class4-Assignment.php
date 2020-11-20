@@ -40,7 +40,7 @@ class variable{
     }
 
     $final = new variable();
-    $final->getterMethod(1234567890);
+    $final->getterMethod(12);
     echo $final->setterMethod();
     echo "<br><br><br>";
 
